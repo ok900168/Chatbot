@@ -14,9 +14,11 @@ st.header("Hello, I am a Chatbot! How can I help you?")
 # User Input
 user_input = st.text_input("Type your query here:")
 
+#test
+
 if user_input:
     # Greet Responses
-    if "fine" in user_input or "nice" in user_input or "good" in user_input:
+    if "fine" in user_input or "nice" in user_input or "good" in user_input: 
         st.write("Great! How can I help you?")
     elif "hi" in user_input:
         st.write("Hey!")
